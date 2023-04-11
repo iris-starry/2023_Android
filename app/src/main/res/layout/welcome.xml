@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/click"
+        android:text="@string/special"
+        android:textAllCaps="false"
+        android:textSize="24sp"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#FF0000"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"/>
+    <!--    android:layout_width="match_parent"-->
+    <!--    android:layout_width="@color/red"-->
+    <!--    android:layout_width="500px"-->
+
+    <TextView
+        android:text="Hello!"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:hint="아무거나 입력"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:src="@drawable/dog"
+        android:layout_width="150dp"
+        android:layout_height="150dp" />
+
+</LinearLayout>
