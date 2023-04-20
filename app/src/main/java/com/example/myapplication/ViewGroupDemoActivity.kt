@@ -7,7 +7,7 @@ class ViewGroupDemoActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         //setContentView(R.layout.linear_layout_demo)
-        setContentView(R.layout.relative_layout_demo)
+        setContentView(R.layout.nested_viewgroup_demo)
         supportActionBar?.hide()
     }
 }
